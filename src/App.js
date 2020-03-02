@@ -6,11 +6,12 @@ import Square from "./Square.js";
 import People from "./People.js";
 
     const App = () => (
-      // put the header and paragraph elements in empty divs using the <> and </>
+      // put the header, paragraph and other components in empty divs using the <> and </>
       <>
-      <Header />
+      <Header text="Hello, world!" />
       <Paragraph />
-      <Square />
+      <Square/>
+      <Square color="red"/>
       <People />
       </>
       );

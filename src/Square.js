@@ -1,14 +1,22 @@
 import React from "react";
 // we use className to add classes for Bootstrap styling
 
-const divStyle = {
-    backgroundColor: 'red',
-    height: 200,
-    width: 200,
-}
+function Square({ color }) { // passing in color through this parameter. Wahtever the user chooses.
 
-function Square () {
-    return <div style={divStyle}></div>
+    const style = { // this is a variable and the properties below are inside. Think of it as a box.
+        height: 200,
+        width: 200,
+        backgroundColor:color
+    };
+
+    return (
+        <div style={ style }></div> // the {style} is taking the properties from above.
+    );
+};
+
+Square.defaultProps = { // this is default styling. If the color passed through is blank it will default to yellow.
+    color: 'yellow',
+    
 }
 
 export default Square;

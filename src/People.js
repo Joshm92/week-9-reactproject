@@ -4,14 +4,14 @@ import React from "react";
 let names = ["James P. Sullivan", "Mike Wazowski", "Boo", "Randall Boggs", "Roz", "Fungus"];
 
 const People = () => (
-    <ul className="list-group">
+    <ul>
   
-    { names.map((value, index) => (
-    <li className="list-group" key={ index }>
-    <a className="page-link" href={ "/page/" + value }>{ value}</a>
-    </li>
+    { names.map((name, index) => (
+        <li key={ index }>
+            {name}
+        </li>
     ))}
     </ul>
-    );
+);
 
 export default People;
