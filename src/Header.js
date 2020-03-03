@@ -1,11 +1,18 @@
 import React, { Component } from "react";
 // we use className to add classes for Bootstrap styling
 
-class App extends Component {
-    
+class Header extends Component {
+    render() {
+        return <h1>{ this.props.children }</h1>;
+    }
 }
 
-const Header = ({children}) => (
-    <h1>{children}</h1>
-);
+
+
 export default Header;
+
+
+
+// const Header = ({children}) => (
+//     <h1>{children}</h1>
+// );

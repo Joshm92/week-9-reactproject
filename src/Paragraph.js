@@ -1,17 +1,13 @@
 import React, { Component } from "react";
 // we use className to add classes for Bootstrap styling
 
-class App extends Component {
-    
+class Paragraph extends Component {
+    render() {
+        return <p>{ this.props.children }</p>;
+    }
 }
 
-const Paragraph = ({ children }) => (
 
-    <p>
-        { children }
-    </p>
-
-);
 
 Paragraph.defaultProps = {
    children: "Hello, world"
