@@ -4,7 +4,7 @@ import Header from "./Header.js";
 import Paragraph from "./Paragraph.js";
 import Square from "./Square.js";
 import People from "./People.js";
-
+import Clicked from "./Clicked.js";
 
 let Stuff = ( {square} ) => (
     <>
@@ -14,6 +14,7 @@ let Stuff = ( {square} ) => (
     <Square color="red"/>
     <People names = {["Sandra", "Josh", "Hagrid"]}/>
     <People />
+    <Clicked />
     </>
 );
 
