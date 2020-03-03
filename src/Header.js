@@ -10,9 +10,3 @@ class Header extends Component {
 
 
 export default Header;
-
-
-
-// const Header = ({children}) => (
-//     <h1>{children}</h1>
-// );
