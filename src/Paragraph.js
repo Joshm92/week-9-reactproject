@@ -1,5 +1,9 @@
-import React from "react";
+import React, { Component } from "react";
 // we use className to add classes for Bootstrap styling
+
+class App extends Component {
+    
+}
 
 const Paragraph = ({ children }) => (
 
