@@ -10,8 +10,8 @@ let Stuff = ( {square} ) => (
     <>
     <Header text="Hello, world!" />
     <Paragraph />
-    {square ? <Square color="green" /> : null}
-    <Square color="red"/>
+    {square ? <Square color="purple" /> : null}
+    {/* <Square color="red"/> */}
     <People names = {["Sandra", "Josh", "Hagrid"]}/>
     <People />
     <Clicked />

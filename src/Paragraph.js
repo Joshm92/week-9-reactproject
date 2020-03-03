@@ -10,7 +10,7 @@ class Paragraph extends Component {
 
 
 Paragraph.defaultProps = {
-   children: "Hello, world"
+   children: "Hello Hello Hello"
     };
 
 
