@@ -1,7 +1,7 @@
 import React from "react";
 // we use className to add classes for Bootstrap styling
 
-function Square({ color }) { // passing in color through this parameter. Wahtever the user chooses.
+function Square({ color }) { // passing in color through this parameter. 
 
     const style = { // this is a variable and the properties below are inside. Think of it as a box.
         height: 200,
