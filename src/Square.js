@@ -13,8 +13,8 @@ class Square extends Component {
         this.handleClick = this.handleClick.bind(this);
     }
 
-        handleClick() {
-            this.setState({ clicked:!this.state.clicked})
+    handleClick() {
+        this.setState({ clicked:!this.state.clicked}) // ! changes it to the opposite and use set stateto put new value in state
         }
 
     render(){
@@ -22,7 +22,7 @@ class Square extends Component {
         let {color} = this.props;
 
 
-        const style = { // this is a variable and the properties below are inside. Think of it as a box.
+        const style = { // this is a variable and the properties below are inside. 
             height: 200,
             width: 200,
             backgroundColor: clicked ? color : "orange"
