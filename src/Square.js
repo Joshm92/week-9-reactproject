@@ -30,7 +30,10 @@ class Square extends Component {
         };
 
         return (
-            <div onClick={ this.handleClick } style={ style }></div> 
+            <>
+                <p>Click the box!</p>
+                <div onClick={ this.handleClick } style={ style }></div> 
+            </>
         );
             
         }

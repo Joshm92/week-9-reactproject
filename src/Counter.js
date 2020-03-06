@@ -31,7 +31,7 @@ class Counter extends Component {
    
 
     render() { // what it's going to do on the browser. On click we do a ternary. if it's clicked display clicked if not display not clicked.
-        const { counter } = this.state;
+        const { counter } = this.state; // this is destructuring so below instead of putting this.state.counter all the time we can just put {counter}
 
         return (
             <>

@@ -13,15 +13,14 @@ class Clicked extends Component {
     }
         
         handleClick() {
-                this.setState({ clicked:!this.state.clicked }) // this is what happens when its clicked in this case clicked.
-              }
-   
+            this.setState({ clicked:!this.state.clicked }) // this is what happens when its clicked in this case clicked.
+        }
 
     render() { // what it's going to do on the browser. On click we do a ternary. if it's clicked display clicked if not display not clicked.
         let {clicked} = this.state;
 
         return (
-            <p onClick={ this.handleClick }> 
+            <p onClick={ this.handleClick }>  
             { clicked ? "clicked" : "not clicked"}
             </p>
         );

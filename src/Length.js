@@ -19,13 +19,11 @@ class Length extends Component {
         render() {
             const { value } = this.state;
             return (
-                <>
                 <form className="form-control">
                         <p>Length: {value.length}</p>
                         <input className="form-control" onChange={e => this.handleChange(e)}
                         value={ value}/>
                 </form>
-                </>
             );
         }
 

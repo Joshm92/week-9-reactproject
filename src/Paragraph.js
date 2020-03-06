@@ -10,7 +10,7 @@ class Paragraph extends Component {
 
 
 Paragraph.defaultProps = {
-   children: "Hello Hello Hello"
+   children: "Hello and welcome to my React site"
     };
 
 

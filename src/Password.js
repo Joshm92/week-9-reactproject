@@ -12,6 +12,7 @@ class Password extends Component {
 
     }
 
+
         handleChange(event) {
             const newValue = event.currentTarget.value;
             this.setState({ value: newValue });
