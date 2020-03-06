@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/week-9-reactproject/static/css/main.71489e89.chunk.css",
+    "main.js": "/week-9-reactproject/static/js/main.fed4004b.chunk.js",
+    "main.js.map": "/week-9-reactproject/static/js/main.fed4004b.chunk.js.map",
+    "runtime-main.js": "/week-9-reactproject/static/js/runtime-main.3a421668.js",
+    "runtime-main.js.map": "/week-9-reactproject/static/js/runtime-main.3a421668.js.map",
+    "static/js/2.03f4db4b.chunk.js": "/week-9-reactproject/static/js/2.03f4db4b.chunk.js",
+    "static/js/2.03f4db4b.chunk.js.map": "/week-9-reactproject/static/js/2.03f4db4b.chunk.js.map",
+    "index.html": "/week-9-reactproject/index.html",
+    "precache-manifest.1b3eef8a20c371a97563110d09eb737b.js": "/week-9-reactproject/precache-manifest.1b3eef8a20c371a97563110d09eb737b.js",
+    "service-worker.js": "/week-9-reactproject/service-worker.js",
+    "static/css/main.71489e89.chunk.css.map": "/week-9-reactproject/static/css/main.71489e89.chunk.css.map",
+    "static/js/2.03f4db4b.chunk.js.LICENSE.txt": "/week-9-reactproject/static/js/2.03f4db4b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3a421668.js",
+    "static/js/2.03f4db4b.chunk.js",
+    "static/css/main.71489e89.chunk.css",
+    "static/js/main.fed4004b.chunk.js"
+  ]
+}
