@@ -14,7 +14,8 @@ import Password from "./Password";
 import Temperature from "./TempConverter";
 import Footer from "./Footer";
 import FourOhFour from "./FourOhFour";
-import Home from "./Home";
+// import Progress from "./Progress";
+// import Home from "./Home";
 import {
     BrowserRouter as Router, 
     Route, Switch
@@ -54,7 +55,7 @@ let Stuff = () => (
 
 
                 <Route path="/stepcounter/:max/:step" render={ ({ match }) => (
-                    <StepCounter max={ match.params.max } step={ match.params.step}/>
+                    <StepCounter max={ match.params.max } step={ match.params.step }/>
                 )}/>
 
 
@@ -75,6 +76,8 @@ let Stuff = () => (
                 <Route path='/length' component={ Length }/>
 
                 <Route path='/password' component={ Password }/>
+
+                {/* <Route path='/progress' component={ Progress }/> */}
 
                 {/* <Route exact path="/" component={ FourOhFour }/> */}
                     <FourOhFour />
