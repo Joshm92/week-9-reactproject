@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import Counter from "./Counter";
+// import Counter from "./Counter";
 
 
 

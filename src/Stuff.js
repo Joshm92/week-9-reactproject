@@ -14,6 +14,8 @@ import Password from "./Password";
 import Temperature from "./TempConverter";
 import Footer from "./Footer";
 import FourOhFour from "./FourOhFour";
+import ClickedAgain from "./ClickedAgain";
+import SquareAgain from "./SquareAgain";
 // import Progress from "./Progress";
 // import Home from "./Home";
 import {
@@ -32,6 +34,9 @@ let Stuff = () => (
                     <Paragraph>Hello World</Paragraph>
                 </Route>
 
+                <Route path='/clickedagain' component={ ClickedAgain }/>
+
+                <Route path='/squareagain' component={ SquareAgain }/>
 
                 <Route path="/square/:color" render={ ({ match }) => (
                     <Square color={ match.params.color } />
