@@ -16,6 +16,8 @@ import Footer from "./Footer";
 import FourOhFour from "./FourOhFour";
 import ClickedAgain from "./ClickedAgain";
 import SquareAgain from "./SquareAgain";
+import ToggleAgain from "./ToggleAgain";
+import CounterAgain from "./CounterAgain";
 // import Progress from "./Progress";
 // import Home from "./Home";
 import {
@@ -37,6 +39,14 @@ let Stuff = () => (
                 <Route path='/clickedagain' component={ ClickedAgain }/>
 
                 <Route path='/squareagain' component={ SquareAgain }/>
+
+                <Route path='/toggleagain'>
+                <ToggleAgain initial="Hello" alternate="world"/>
+                </Route>
+
+                <Route path='/counteragain'>
+                <CounterAgain initial={ 50 } max={ 100 } />
+                </Route>
 
                 <Route path="/square/:color" render={ ({ match }) => (
                     <Square color={ match.params.color } />
