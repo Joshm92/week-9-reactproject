@@ -18,6 +18,9 @@ import ClickedAgain from "./ClickedAgain";
 import SquareAgain from "./SquareAgain";
 import ToggleAgain from "./ToggleAgain";
 import CounterAgain from "./CounterAgain";
+import ClickedUseRed from "./ClickedUseRed";
+import SquareUseRed from "./SquareUseRed";
+import CounterUseRed from "./CounterUseRed";
 // import Progress from "./Progress";
 // import Home from "./Home";
 import {
@@ -38,7 +41,11 @@ let Stuff = () => (
 
                 <Route path='/clickedagain' component={ ClickedAgain }/>
 
+                <Route path='/clickedusered' component={ ClickedUseRed }/>
+
                 <Route path='/squareagain' component={ SquareAgain }/>
+
+                 <Route path='/squareusered' component={ SquareUseRed }/>
 
                 <Route path='/toggleagain'>
                 <ToggleAgain initial="Hello" alternate="world"/>
@@ -46,6 +53,10 @@ let Stuff = () => (
 
                 <Route path='/counteragain'>
                 <CounterAgain initial={ 50 } max={ 100 } />
+                </Route>
+
+                <Route path='/counterusered'>
+                <CounterUseRed initial={ 5 } max={ 10 } />
                 </Route>
 
                 <Route path="/square/:color" render={ ({ match }) => (
