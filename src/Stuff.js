@@ -21,6 +21,9 @@ import CounterAgain from "./CounterAgain";
 import ClickedUseRed from "./ClickedUseRed";
 import SquareUseRed from "./SquareUseRed";
 import CounterUseRed from "./CounterUseRed";
+import SquareLift from "./SquareLift"
+import Passwordd from "./Passwordd";
+import SignUp from "./SignUp";
 // import Progress from "./Progress";
 // import Home from "./Home";
 import {
@@ -46,6 +49,10 @@ let Stuff = () => (
                 <Route path='/squareagain' component={ SquareAgain }/>
 
                  <Route path='/squareusered' component={ SquareUseRed }/>
+
+                 <Route path='/squarelift' component={ SquareLift }/>
+
+               <Route path='/signup' component={ SignUp }/>
 
                 <Route path='/toggleagain'>
                 <ToggleAgain initial="Hello" alternate="world"/>
@@ -103,9 +110,6 @@ let Stuff = () => (
 
                 <Route path='/password' component={ Password }/>
 
-                {/* <Route path='/progress' component={ Progress }/> */}
-
-                {/* <Route exact path="/" component={ FourOhFour }/> */}
                     <FourOhFour />
             </Switch>
 

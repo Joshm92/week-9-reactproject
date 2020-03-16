@@ -7,6 +7,10 @@
     margin:0px auto;
 }
 
+input {
+  margin: 30px;
+
+}
 
 .App-logo {
   height: 40vmin;
